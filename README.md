@@ -1,6 +1,6 @@
 # Raymarching + Threejs
 
-This repo demonstrates how to add raymarching materials created with [Polygonjs](https://polygonjs.com) to any threejs scene.
+This repo demonstrates how to add raymarching materials created with [Polygonjs](https://polygonjs.com) to any threejs scene. See [live example](https://polygonjs.com/demo?example=bynode/mat/raymarchingbuilder/refractions)
 
 ![Raymarching_with_threejs](https://github.com/polygonjs/polygonjs-threejs-raymarching-example/blob/main/assets/refraction_threejs.gif?raw=true)
 
