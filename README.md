@@ -2,7 +2,7 @@
 
 This repo demonstrates how to add raymarching materials created with [Polygonjs](https://polygonjs.com) to any threejs scene.
 
-<video src="https://github.com/polygonjs/polygonjs-threejs-raymarching-example/blob/main/assets/refraction_threejs.mp4?raw=true" autoplay muted loop></video>
+![Raymarching_with_threejs](https://github.com/polygonjs/polygonjs-threejs-raymarching-example/blob/main/assets/refraction_threejs.gif?raw=true)
 
 If you do not know anything about Polygonjs, learn first [how to create your first scene](https://polygonjs.com/docs/getting_started).
 
