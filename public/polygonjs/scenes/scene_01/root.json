@@ -1,0 +1,15 @@
+{
+	"type": "root",
+	"nodes": {
+		"hemisphereLight1": {
+			"type": "hemisphereLight",
+			"flags": {
+				"display": true
+			}
+		}
+	},
+	"params": {
+		"bgColor": [0, 0, 0],
+		"mainCameraPath": "/perspectiveCamera1"
+	}
+}

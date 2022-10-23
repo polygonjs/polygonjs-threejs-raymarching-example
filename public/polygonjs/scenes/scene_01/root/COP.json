@@ -1,0 +1,11 @@
+{
+	"type": "copNetwork",
+	"nodes": {
+		"imageEXR1": {
+			"type": "imageEXR",
+			"params": {
+				"url": "textures/piz_compressed.exr?timestamp=1666558609162"
+			}
+		}
+	}
+}

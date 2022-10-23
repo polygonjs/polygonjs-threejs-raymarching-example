@@ -1,0 +1,97 @@
+{
+	"nodes": {
+		"hemisphereLight1": {
+			"pos": [150, 100]
+		},
+		"perspectiveCamera1": {
+			"pos": [-200, 100],
+			"nodes": {
+				"events1": {
+					"pos": [-200, 50],
+					"nodes": {
+						"cameraOrbitControls1": {
+							"pos": [150, 50]
+						}
+					}
+				}
+			}
+		},
+		"raymarchedObject": {
+			"pos": [-50, -150],
+			"nodes": {
+				"material1": {
+					"pos": [-300, -50]
+				},
+				"MAT": {
+					"pos": [-500, -50],
+					"nodes": {
+						"rayMarchingBuilder1": {
+							"pos": [0, 50],
+							"nodes": {
+								"globals1": {
+									"pos": [-1050, -500]
+								},
+								"output1": {
+									"pos": [300, 0]
+								},
+								"SDFContext1": {
+									"pos": [100, 0]
+								},
+								"SDFMaterial1": {
+									"pos": [-100, 200]
+								},
+								"SDFSphere2": {
+									"pos": [-300, 0]
+								},
+								"SDFUnion1": {
+									"pos": [-50, -300]
+								},
+								"floatToVec3_1": {
+									"pos": [-500, 0]
+								},
+								"cos1": {
+									"pos": [-700, 0]
+								},
+								"constant1": {
+									"pos": [-300, 200]
+								},
+								"SDFTorus1": {
+									"pos": [-350, -600]
+								},
+								"SDFTorus2": {
+									"pos": [-350, -450]
+								},
+								"floatToVec3_2": {
+									"pos": [-800, -600]
+								},
+								"SDFTransform1": {
+									"pos": [-700, -600]
+								},
+								"floatToVec3_3": {
+									"pos": [-800, -450]
+								},
+								"SDFTransform2": {
+									"pos": [-700, -450]
+								},
+								"SDFUnion2": {
+									"pos": [-200, -500]
+								}
+							}
+						}
+					}
+				},
+				"sphere1": {
+					"pos": [-300, -250]
+				}
+			}
+		},
+		"COP": {
+			"pos": [-200, 200],
+			"nodes": {
+				"imageEXR1": {
+					"pos": [-100, 0]
+				}
+			}
+		}
+	}
+}

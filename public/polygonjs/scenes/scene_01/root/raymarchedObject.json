@@ -1,0 +1,24 @@
+{
+	"type": "geo",
+	"nodes": {
+		"material1": {
+			"type": "material",
+			"params": {
+				"material": "../MAT/rayMarchingBuilder1"
+			},
+			"inputs": ["sphere1"],
+			"flags": {
+				"display": true
+			}
+		},
+		"sphere1": {
+			"type": "sphere",
+			"params": {
+				"radius": 1.5
+			}
+		}
+	},
+	"flags": {
+		"display": true
+	}
+}
