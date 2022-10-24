@@ -28,10 +28,13 @@ fetchSceneAndMount_scene_01({
 And make sure to run `.update(delta)` in the render loop:
 
 ``` ts
-const clock = new THREE.Clock()
+const renderState = {scene}; // create a renderState, which is a simple container for the scene
+const clock = new THREE.Clock(); // create a clock
 function animation( time:number ) {
   const delta = clock.getDelta();
-  polygonjsScene?.update(delta);
+  
+  // pass the delta and render state to PolyScene.update() method
+  polygonjsScene?.update(delta, renderState);
 
   renderer.render( scene, camera );
 }

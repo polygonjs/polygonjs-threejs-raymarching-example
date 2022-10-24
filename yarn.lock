@@ -74,10 +74,10 @@
   resolved "https://registry.yarnpkg.com/@jscad/modeling/-/modeling-2.9.3.tgz#b058015b82fb6fd54257f32510ce4b8cc491d257"
   integrity sha512-UnSKU1OAl5g93sh84VnDxF/EMGsUBIZuhD1PjkCh3Gxaut3p+39GTTF5MHYhGFEfvQKbhXQHVbtoE+mdohQuxg==
 
-"@polygonjs/polygonjs@1.2.42":
-  version "1.2.42"
-  resolved "https://registry.yarnpkg.com/@polygonjs/polygonjs/-/polygonjs-1.2.42.tgz#6b11875c02d741044e3e14a7b13c9118d37d5d84"
-  integrity sha512-ma8xGng0rjImPYvYqGXoi01HquNlGDniRlVEYfLqlMLWGufYDmQTRn0+RfDFPUpLWgKrX7oWn89KKXbdI5ECDQ==
+"@polygonjs/polygonjs@1.2.44":
+  version "1.2.44"
+  resolved "https://registry.yarnpkg.com/@polygonjs/polygonjs/-/polygonjs-1.2.44.tgz#01cf6468f7b439a9473238b57c5e8b37a4e8b547"
+  integrity sha512-L0NWA8la4CcX+QszExQ5L83zqfBtCjbeEnjzOjmgSXF8OW+CPLID1fLdkofrexloWWGeZHoAFuNfkUE5d7e48A==
   dependencies:
     "@dimforge/rapier3d" "0.9.0"
     "@jscad/modeling" "2.9.3"
@@ -1405,12 +1405,12 @@ picomatch@^2.3.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-polygonjs-editor@^1.2.42-1:
-  version "1.2.42-1"
-  resolved "https://registry.yarnpkg.com/polygonjs-editor/-/polygonjs-editor-1.2.42-1.tgz#751a337a12590f85f32548813e3b2d1b002c3828"
-  integrity sha512-4qZbkAK4KC83/U8ngT0H9zaCHSY6I+6B3W5A+1j4q51/FlTHtdnFL9hVJJ2SR3Le/AhfGfKHbcnWSMgnXw1NlQ==
+polygonjs-editor@^1.2.44-1:
+  version "1.2.44-1"
+  resolved "https://registry.yarnpkg.com/polygonjs-editor/-/polygonjs-editor-1.2.44-1.tgz#c377c0a03d7b334a532ef72bef8fbc2e684c8abe"
+  integrity sha512-efV2SHlebw7Z95SYHwYuHW1wTWmOSaRhlFlUjKGwyoalkP/BzDoDACCCqsjmqRC8hADaH43WtvMawFvi+7FluQ==
   dependencies:
-    "@polygonjs/polygonjs" "1.2.42"
+    "@polygonjs/polygonjs" "1.2.44"
     btoa "1.2.1"
     chalk "4.1.0"
     compression-webpack-plugin "^10.0.0"

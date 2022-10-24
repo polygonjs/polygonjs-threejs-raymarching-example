@@ -14,6 +14,6 @@
     "vite": "^3.1.0"
   },
   "dependencies": {
-    "polygonjs-editor": "^1.2.42-1"
+    "polygonjs-editor": "^1.2.44-1"
   }
 }

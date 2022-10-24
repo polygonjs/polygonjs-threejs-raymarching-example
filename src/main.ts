@@ -14,6 +14,11 @@ const material = new THREE.MeshNormalMaterial();
 const mesh = new THREE.Mesh( geometry, material );
 scene.add( mesh );
 
+const pointLight = new THREE.PointLight();
+pointLight.position.set(2,2,2);
+scene.add( pointLight );
+
+
 const renderer = new THREE.WebGLRenderer( { antialias: true } );
 renderer.setSize( window.innerWidth, window.innerHeight );
 // renderer.setPixelRatio(2);
@@ -33,13 +38,13 @@ fetchSceneAndMount_scene_01({
 })
 
 // animation
-
+const renderState = {scene};
 const clock = new THREE.Clock()
 function animation( time:number ) {
   const delta = clock.getDelta();
 
-  // 3. we make sure to run .update(delta) on the polygonjs scene
-  polygonjsScene?.update(delta);
+  // 3. we make sure to run .update(delta, {scene}) on the polygonjs scene
+  polygonjsScene?.update(delta, renderState);
 
 	mesh.rotation.x = time / 2000;
 	mesh.rotation.y = time / 1000;
