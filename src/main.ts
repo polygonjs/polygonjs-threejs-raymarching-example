@@ -16,6 +16,7 @@ scene.add( mesh );
 
 const renderer = new THREE.WebGLRenderer( { antialias: true } );
 renderer.setSize( window.innerWidth, window.innerHeight );
+// renderer.setPixelRatio(2);
 renderer.setAnimationLoop( animation );
 document.body.appendChild( renderer.domElement );
 
